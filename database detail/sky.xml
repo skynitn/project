@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.4
+- http://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Mar 01, 2015 at 06:24 PM
+- Server version: 5.5.32
+- PHP Version: 5.4.16
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="sky" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="users">
+                CREATE TABLE `users` (
+                  `dateAdded` varchar(11) NOT NULL,
+                  `companyName` varchar(170) NOT NULL,
+                  `clientName` varchar(50) NOT NULL,
+                  `email` varchar(50) NOT NULL,
+                  `password` varchar(32) NOT NULL,
+                  `country` varchar(20) NOT NULL,
+                  `state` varchar(20) NOT NULL,
+                  `city` varchar(20) NOT NULL,
+                  `zip` varchar(6) NOT NULL,
+                  `sAddr` varchar(150) NOT NULL,
+                  `telNo` varchar(10) NOT NULL,
+                  `aTelNo` varchar(10) NOT NULL,
+                  `mobileNo` varchar(10) NOT NULL,
+                  `faxNo` varchar(10) NOT NULL,
+                  `dobMonth` varchar(1) NOT NULL,
+                  `dobDate` varchar(2) NOT NULL,
+                  `sex` varchar(6) NOT NULL,
+                  `serviceTaken` varchar(50) NOT NULL,
+                  `selectProduct` varchar(50) NOT NULL,
+                  `remarks` varchar(150) NOT NULL,
+                  PRIMARY KEY (`email`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'sky'
+    -->
+    <database name="sky">
+        <!-- Table users -->
+        <table name="users">
+            <column name="dateAdded">2015-02-28</column>
+            <column name="companyName">asffa</column>
+            <column name="clientName">effef</column>
+            <column name="email">niraj_kr_das@yahoo.in</column>
+            <column name="password">827ccb0eea8a706c4c34a16891f84e7b</column>
+            <column name="country">India</column>
+            <column name="state">Nagaland</column>
+            <column name="city">Dimapur</column>
+            <column name="zip">797103</column>
+            <column name="sAddr">Chumukedima</column>
+            <column name="telNo">2434324234</column>
+            <column name="aTelNo">4234324</column>
+            <column name="mobileNo">4324324</column>
+            <column name="faxNo">2434342</column>
+            <column name="dobMonth">1</column>
+            <column name="dobDate">1</column>
+            <column name="sex">female</column>
+            <column name="serviceTaken">hosting</column>
+            <column name="selectProduct">Sales Software</column>
+            <column name="remarks">dsvds</column>
+        </table>
+    </database>
+</pma_xml_export>

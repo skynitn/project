@@ -1,7 +1,7 @@
 <?php
 	$dbhost = "localhost";
 	$dbuser = "root";
-	$dbpass = "yadav";
+	$dbpass = "";
 	$dbname = "sky";
 	$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 	if(mysqli_connect_errno()){
